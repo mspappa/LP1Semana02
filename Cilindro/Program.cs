@@ -9,14 +9,20 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
-            float pi = 3.1415926; //
+            int pi = (Convert.ToInt32(3.1415926f)); //
             int raio; 
-            int area; 
+            int altura; 
 
-            int S = 2 * pi * raio * (raio + area); //
-            int V = pi * (raio * raio) * area; 
+            int S = 2 * pi * raio * (raio + altura); //
+            int V = pi * (raio * raio) * altura; 
 
-            string str = Console.ReadLine();
+            Console.WriteLine("insira o raio");
+            string str1 = Console.ReadLine();
+
+            Console.WriteLine("insira a altura");
+            string str2 = Console.ReadLine();
+
+            Console.WriteLine(raio + "\n" + altura + "\n");
         }
     }
 }
