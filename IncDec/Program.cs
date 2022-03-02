@@ -15,7 +15,7 @@ namespace OlaMundo
 
             int b = 2;
 
-            b++; //
+            --b; //
 
             Console.WriteLine(a + "\n" + b); //
         }
