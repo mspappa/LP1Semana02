@@ -9,7 +9,11 @@ namespace OlaMundo
     {
         static void Main(string[] args)
         {
-            
+            int a = 1;
+
+            a++; //
+
+            Console.WriteLine(a); //
         }
     }
 }
