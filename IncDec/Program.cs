@@ -13,7 +13,11 @@ namespace OlaMundo
 
             a++; //
 
-            Console.WriteLine(a); //
+            int b = 2;
+
+            b++; //
+
+            Console.WriteLine(a + "\n" + b); //
         }
     }
 }
