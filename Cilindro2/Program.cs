@@ -17,7 +17,9 @@ namespace Cilindro2
             int S = 2 * pi * raio * (raio + altura); //
             int V = pi * (raio * raio) * altura; 
 
-            Console.WriteLine(S + "\n" + V + "\n");
+            //mostra no ecra os valores
+            Console.WriteLine($"A Superficie do Cilindro e: {S}\n" + $"O Volume do Cilindro e: {V}");
+
         }
     }
 }
